@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="Disable Buttons if using SPen"
+                      android:summary="If enabled Menu/Back buttons will be disabled when using SPen"
+                      android:key="disableButtons"/>
+</PreferenceScreen>
