@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SPenTweaks</string>
+    <string name="hoverTimeout">Hover Timeout</string>
+    <string name="hoverTimeout.desc">Time (ms) before buttons are reenabled after no hover event has been detected</string>
 </resources>

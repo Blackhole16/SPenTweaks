@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res/net.betabears.android.xposed.mods.sPenTweaks"
+        >
     <SwitchPreference android:title="Disable Buttons if using SPen"
                       android:summary="If enabled Menu/Back buttons will be disabled when using SPen"
                       android:key="disableButtons"/>
+    <CheckBoxPreference android:title="Debugging"
+                        android:summary="If enabled, it'll print debugging information to XPosed logging file"
+                        android:key="debug"/>
+    <CheckBoxPreference android:title="Event Logging"
+                        android:summary="If enabled, it'll print all intercepted events to XPosed logging file"
+                        android:key="eventLogging"/>
+    <net.betabears.android.xposed.mods.sPenTweaks.SeekBarPreference android:key="hoverTimeout"
+                                                                    android:title="@string/hoverTimeout"
+                                                                    android:summary="@string/hoverTimeout.desc"
+                                                                    android:defaultValue="200"
+                                                                    android:max="2000"
+                                                                    app:min="50"
+                                                                    app:unitsRight="ms"
+                                                                    app:interval="25"
+            />
 </PreferenceScreen>

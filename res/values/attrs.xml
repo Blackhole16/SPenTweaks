@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SeekBarPreference">
+        <attr name="android:max"/>
+        <attr name="min" format="integer"/>
+        <attr name="unitsLeft" format="string"/>
+        <attr name="units" format="string"/>
+        <attr name="unitsRight" format="string"/>
+        <attr name="interval" format="string"/>
+    </declare-styleable>
+</resources>
